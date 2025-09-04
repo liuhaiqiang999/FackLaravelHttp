@@ -1,0 +1,22 @@
+{
+  "name": "codeliu/php-http-client",
+  "description": "通用 PHP HTTP 客户端，灵感来自 Laravel Http facade（框架无关）",
+  "type": "library",
+  "license": "MIT",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "Liuhaiqang",
+      "email": "857523518@qq.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "CodeLiu\\HttpClient\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=7.1",
+    "guzzlehttp/guzzle": "^6.3|^7.0"
+  }
+}
